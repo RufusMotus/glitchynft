@@ -1,0 +1,322 @@
+{
+  "projectId": "6272e22aced4f938d456",
+  "projectName": "GlitchyNFT",
+  "collections": [
+    {
+      "$id": "headAssets",
+      "$read": ["role:all"],
+      "$write": ["role:member"],
+      "name": "Head Assets",
+      "enabled": true,
+      "permission": "collection",
+      "attributes": [
+        {
+          "key": "assetName",
+          "type": "string",
+          "status": "available",
+          "required": true,
+          "array": false,
+          "size": 255,
+          "default": null
+        },
+        {
+          "key": "assetBody",
+          "type": "string",
+          "status": "available",
+          "required": true,
+          "array": false,
+          "size": 100000,
+          "default": null
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "$id": "faceAssets",
+      "$read": ["role:all"],
+      "$write": ["role:member"],
+      "name": "Face Assets",
+      "enabled": true,
+      "permission": "collection",
+      "attributes": [
+        {
+          "key": "assetName",
+          "type": "string",
+          "status": "available",
+          "required": true,
+          "array": false,
+          "size": 255,
+          "default": null
+        },
+        {
+          "key": "assetBody",
+          "type": "string",
+          "status": "available",
+          "required": true,
+          "array": false,
+          "size": 100000,
+          "default": null
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "$id": "leftArmAssets",
+      "$read": ["role:all"],
+      "$write": ["role:member"],
+      "name": "Left Arm Assets",
+      "enabled": true,
+      "permission": "collection",
+      "attributes": [
+        {
+          "key": "assetBody",
+          "type": "string",
+          "status": "available",
+          "required": true,
+          "array": false,
+          "size": 100000,
+          "default": null
+        },
+        {
+          "key": "assetName",
+          "type": "string",
+          "status": "available",
+          "required": true,
+          "array": false,
+          "size": 255,
+          "default": null
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "$id": "leftHandAssets",
+      "$read": ["role:all"],
+      "$write": ["role:member"],
+      "name": "Left Hand Assets",
+      "enabled": true,
+      "permission": "collection",
+      "attributes": [
+        {
+          "key": "assetName",
+          "type": "string",
+          "status": "available",
+          "required": true,
+          "array": false,
+          "size": 255,
+          "default": null
+        },
+        {
+          "key": "assetBody",
+          "type": "string",
+          "status": "available",
+          "required": true,
+          "array": false,
+          "size": 100000,
+          "default": null
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "$id": "bodyAssets",
+      "$read": ["role:all"],
+      "$write": ["role:member"],
+      "name": "Body Assets",
+      "enabled": true,
+      "permission": "collection",
+      "attributes": [
+        {
+          "key": "assetBody",
+          "type": "string",
+          "status": "available",
+          "required": true,
+          "array": false,
+          "size": 100000,
+          "default": null
+        },
+        {
+          "key": "assetName",
+          "type": "string",
+          "status": "available",
+          "required": true,
+          "array": false,
+          "size": 255,
+          "default": null
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "$id": "rightArmAssets",
+      "$read": ["role:all"],
+      "$write": ["role:member"],
+      "name": "Right Arm Assets",
+      "enabled": true,
+      "permission": "collection",
+      "attributes": [
+        {
+          "key": "assetBody",
+          "type": "string",
+          "status": "available",
+          "required": true,
+          "array": false,
+          "size": 100000,
+          "default": null
+        },
+        {
+          "key": "assetName",
+          "type": "string",
+          "status": "available",
+          "required": true,
+          "array": false,
+          "size": 255,
+          "default": null
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "$id": "rightHandAssets",
+      "$read": ["role:all"],
+      "$write": ["role:member"],
+      "name": "Right Hand Assets",
+      "enabled": true,
+      "permission": "collection",
+      "attributes": [
+        {
+          "key": "assetName",
+          "type": "string",
+          "status": "available",
+          "required": true,
+          "array": false,
+          "size": 255,
+          "default": null
+        },
+        {
+          "key": "assetBody",
+          "type": "string",
+          "status": "available",
+          "required": true,
+          "array": false,
+          "size": 100000,
+          "default": null
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "$id": "leftLegAssets",
+      "$read": ["role:all"],
+      "$write": ["role:member"],
+      "name": "Left Leg Assets",
+      "enabled": true,
+      "permission": "collection",
+      "attributes": [
+        {
+          "key": "assetBody",
+          "type": "string",
+          "status": "available",
+          "required": true,
+          "array": false,
+          "size": 100000,
+          "default": null
+        },
+        {
+          "key": "assetName",
+          "type": "string",
+          "status": "available",
+          "required": true,
+          "array": false,
+          "size": 255,
+          "default": null
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "$id": "rightLegAssets",
+      "$read": ["role:all"],
+      "$write": ["role:member"],
+      "name": "Right Leg Assets",
+      "enabled": true,
+      "permission": "collection",
+      "attributes": [
+        {
+          "key": "assetName",
+          "type": "string",
+          "status": "available",
+          "required": true,
+          "array": false,
+          "size": 255,
+          "default": null
+        },
+        {
+          "key": "assetBody",
+          "type": "string",
+          "status": "available",
+          "required": true,
+          "array": false,
+          "size": 100000,
+          "default": null
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "$id": "glitchynfts",
+      "$read": [],
+      "$write": [],
+      "name": "GlitchyNFTs",
+      "enabled": true,
+      "permission": "document",
+      "attributes": [
+        {
+          "key": "glitchyNFTBase64",
+          "type": "string",
+          "status": "available",
+          "required": true,
+          "array": false,
+          "size": 100000,
+          "default": null
+        },
+        {
+          "key": "glitchyNFTName",
+          "type": "string",
+          "status": "available",
+          "required": true,
+          "array": false,
+          "size": 255,
+          "default": null
+        },
+        {
+          "key": "ownerName",
+          "type": "string",
+          "status": "available",
+          "required": true,
+          "array": false,
+          "size": 255,
+          "default": null
+        },
+        {
+          "key": "ownerId",
+          "type": "string",
+          "status": "available",
+          "required": true,
+          "array": false,
+          "size": 255,
+          "default": null
+        }
+      ],
+      "indexes": [
+        {
+          "key": "ownerId",
+          "type": "key",
+          "status": "available",
+          "attributes": ["ownerId"],
+          "orders": ["ASC"]
+        }
+      ]
+    }
+  ]
+}
