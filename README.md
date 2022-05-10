@@ -1,6 +1,6 @@
 # GlitchyNFT
 
-GlitchyNFT is a creator which allowed you to create your own 'NFT' from prepared assets. Why creator for 'NFT'? We all love them (right?)! Project was created for [Appwrite Hackaton on Dev.to](https://dev.to/devteam/announcing-the-appwrite-hackathon-on-dev-1oc0)
+GlitchyNFT is a creator which allowed you to create your own 'NFT' from prepared assets. Why creator for 'NFT'? We all love them (right?)! Project was created for [Appwrite Hackathon on Dev.to](https://dev.to/devteam/announcing-the-appwrite-hackathon-on-dev-1oc0)
 
 ## Techstack
 
@@ -66,7 +66,7 @@ VITE_APP_APPWRITE_PROJECT=Project ID from appwrite.json
 API_KEY=Api key created through Appwrite CLI
 ```
 
-nstall dependencies
+install dependencies
 
 ```
 pnpm install
